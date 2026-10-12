@@ -1,4 +1,4 @@
-# AWS S3 & CloudFront Architektúra Áttekintés
+# AWS S3 & CloudFront áttekintés
 
 Amazon S3 (Simple Storage Service)
 Skálázható, biztonságos és rendkívül tartós objektumtárhely (object storage) a projekt fájljai (forráskódok, dokumentumok, képek vagy médiafájlok) számára. Megbízható, korlátlanul skálázható és biztonságos alapot nyújt az adatok hosszú távú megőrzésére és központi tárolására. Magas rendelkezésre állással az adatok több független adatközpontban helyezkednek el. Rugalmasság, mert szinte bármilyen méretű és formátumú fájl tárolására alkalmas, korlátlan skálázhatósággal.
