@@ -1,8 +1,13 @@
-# AWS-S3
+# AWS S3 & CloudFront Architektúra Áttekintés
 
-AWS S3 **(Simple Storage Service)** egy felhőalapú objektumtároló szolgáltatás, amely nagyon jól skálázható. Az adatokat bucket-ben, "vödör"-ben tárolja. Támogatja a verziózást, így korábbi változatok is megőrizhetőek egy fájlnak és statikus weboldalakat is tárolhatunk rajtuk. 
+Amazon S3 (Simple Storage Service)
+Skálázható, biztonságos és rendkívül tartós objektumtárhely (object storage) a projekt fájljai (forráskódok, dokumentumok, képek vagy médiafájlok) számára. Megbízható, korlátlanul skálázható és biztonságos alapot nyújt az adatok hosszú távú megőrzésére és központi tárolására. Magas rendelkezésre állással az adatok több független adatközpontban helyezkednek el. Rugalmasság, mert szinte bármilyen méretű és formátumú fájl tárolására alkalmas, korlátlan skálázhatósággal.
 
-Az alap S3 bucket létrehozása, a fájl feltöltések, statikus weboldal elhelyezése után bővítjük a lehetőségeket és különböző módon érjük el EC2 példányról és végül Cloudfront használatával a CDN gyakorlását is bemutatom, hogy a statikus weboldalunk elérhetőségének késleltetését csökkentsük. 
+Amazon CloudFront (CDN)
+Content Delivery Network, amely a világ különböző pontjain található edge locationökön keresztül gyorsítja fel a statikus és dinamikus adatok elérését.
+
+A használatával a világ bármely pontján tartózkodó felhasználók számára villámgyors betöltési időt, alacsony késleltetést és tehermentesített, stabil kiszolgálást biztosítsunk. A tartalmat a végfelhasználóhoz földrajzi elhelyezkedés szerint legközelebbi szerver szolgálja ki. Gyorsítótárral (Caching) tehermentesíti a mögöttes forrásrendszereket a gyakran kért fájlok helyi tárolásával.
+
 
 ### Tartalom
 ---
